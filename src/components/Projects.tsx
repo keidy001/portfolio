@@ -69,9 +69,9 @@ const Projects = () => {
     <section id="projects" className="py-10">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">
+          <div className="text-5xl md:text-5xl font-bold p-6 gradient-text">
             Mes Projets
-          </h2>
+          </div>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Une sélection de mes réalisations récentes, où créativité et technique
             se rencontrent pour créer des expériences mémorables.
