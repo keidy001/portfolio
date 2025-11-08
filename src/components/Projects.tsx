@@ -5,7 +5,33 @@ import { ExternalLink, Github, Eye } from "lucide-react";
 
 const Projects = () => {
   const projects = [
-
+     {
+      title: "Plateforme de gestion d'expression de besoins ",
+      description: "Plaateforme de gestion d'expression de besoins pour les sites de Péage et Pesage.",
+      image: "/fer.png",
+      technologies: ["Angular", "Spring Boot", "MySQL"],
+      liveUrl: "http://31.97.177.49:8080/ferml/#/",
+      githubUrl: "#",
+      featured: false
+    },
+       {
+      title: "Plateforme de gestion d'établissement scolaire ",
+      description: "système complet pour la gestion des établissements, classes, enseignants et notes.",
+      image: "/khub.png",
+      technologies: ["Angular", "Spring Boot", "MySQL"],
+      liveUrl: "http://31.97.177.49:8080/ferml/#/",
+      githubUrl: "#",
+      featured: false
+    },
+       {
+      title: "Application mobile pour le dimensionnement de kits solaires ",
+      description: "Application mobile Flutter pour le dimensionnement automatique de kits solaires, génération de devis PDF, suivi complet des installations et rappels programmés pour la maintenance. ",
+      image: "/dpm.jpg",
+      technologies: ["Flutter", "Spring Boot", "MySQL"],
+      liveUrl: "http://31.97.177.49:8080/ferml/#/",
+      githubUrl: "#",
+      featured: false
+    },
     {
       title: "Pharmacie nouvelle coronthie ",
       description: "Application mobile de commande de produits pharmaceutiques. Design moderne et responsive avec animations fluides.",
@@ -17,7 +43,7 @@ const Projects = () => {
     },
     {
       title: "Gestion des Contrats et Marchés",
-      description: "Application web desktop de gestion de contrats et marchés d'une enterprise. Interface utilisateur intuitif, gestion des contrats en temps-REAL, et statistiques avancées.",
+      description: "Application web desktop de gestion de contrats et marchés d'une enterprise. Interface utilisateur intuitif et statistiques avancées.",
       image: "/gespro1.png",
       technologies: ["Angular", "Spring Boot", "Electron.Js","MySQL"],
       liveUrl: "#",
@@ -155,7 +181,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <Button
           asChild
             variant="outline"
@@ -167,7 +193,7 @@ const Projects = () => {
             Voir Plus sur GitHub
             </a>
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -99,7 +99,7 @@ const Contact = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <Card className="glass border-primary/20 animate-slide-in">
+          {/* <Card className="glass border-primary/20 animate-slide-in">
             <CardHeader>
               <CardTitle className="text-2xl text-primary flex items-center gap-2">
                 <Send className="h-6 w-6" />
@@ -190,11 +190,8 @@ const Contact = () => {
                 </Button>
               </form>
             </CardContent>
-          </Card>
-
-          {/* Contact Info */}
-          <div className="space-y-8 animate-slide-in" style={{ animationDelay: "0.2s" }}>
-            <Card className="glass border-primary/20">
+          </Card> */}
+  <Card className="glass border-primary/20">
               <CardHeader>
                 <CardTitle className="text-2xl text-primary">
                   Informations de contact
@@ -222,6 +219,9 @@ const Contact = () => {
                 </div>
               </CardContent>
             </Card>
+          {/* Contact Info */}
+          <div className="space-y-8 animate-slide-in" style={{ animationDelay: "0.2s" }}>
+          
 
             <Card className="glass border-primary/20">
               <CardHeader>

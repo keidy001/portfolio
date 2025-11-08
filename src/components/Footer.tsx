@@ -49,7 +49,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold text-primary">Contact</h3>
             <div className="space-y-2">
               <a
-                href="mailto:john.doe@example.com"
+                href="mailto:ksidy6084@gmail.com"
                 className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="h-4 w-4" />

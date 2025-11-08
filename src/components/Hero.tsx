@@ -9,7 +9,8 @@ const Hero = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [typingSpeed, setTypingSpeed] = useState(150);
 
-  const roles = ["Développeur Fullstack", "Designer UI/UX", "Intégrateur ERP"];
+  // const roles = ["Développeur Fullstack", "Designer UI/UX", "Intégrateur ERP"];
+  const roles = ["Développeur Fullstack","Intégrateur ERP"];
 
   useEffect(() => {
     const handleTyping = () => {

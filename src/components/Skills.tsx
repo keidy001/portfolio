@@ -8,7 +8,7 @@ const Skills = () => {
     {
       title: "Frontend",
       icon: <Code className="h-6 w-6" />,
-      skills: ["Angular", "Electron.Js", "TypeScript", "Next.js", "Tailwind CSS"],
+      skills: ["Angular", "Electron.Js", "TypeScript", "Tailwind CSS"],
     },
     {
       title: "Backend",
@@ -23,7 +23,7 @@ const Skills = () => {
     {
       title: "Mobile",
       icon: <Smartphone className="h-6 w-6" />,
-      skills: ["React Native", "Flutter"],
+      skills: [ "Flutter"],
     },
     // {
     //   title: "DevOps",
